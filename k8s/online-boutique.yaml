@@ -49,7 +49,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/emailservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/emailservice:v0.10.3
         ports:
         - containerPort: 8080
         env:
@@ -123,7 +123,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/checkoutservice:v0.10.3
+          image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/checkoutservice:v0.10.3
           ports:
           - containerPort: 5050
           readinessProbe:
@@ -206,7 +206,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/recommendationservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/recommendationservice:v0.10.3
         ports:
         - containerPort: 8080
         readinessProbe:
@@ -284,7 +284,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/frontend:v0.10.3
+          image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/frontend:v0.10.3
           ports:
           - containerPort: 8080
           readinessProbe:
@@ -411,7 +411,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/paymentservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/paymentservice:v0.10.3
         ports:
         - containerPort: 50051
         env:
@@ -484,7 +484,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/productcatalogservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/productcatalogservice:v0.10.3
         ports:
         - containerPort: 3550
         env:
@@ -557,7 +557,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/cartservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/cartservice:v0.10.3
         ports:
         - containerPort: 7070
         env:
@@ -735,7 +735,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/loadgenerator:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/loadgenerator:v0.10.3
         env:
         - name: FRONTEND_ADDR
           value: "frontend:80"
@@ -787,7 +787,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/currencyservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/currencyservice:v0.10.3
         ports:
         - name: grpc
           containerPort: 7000
@@ -860,7 +860,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/shippingservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/shippingservice:v0.10.3
         ports:
         - containerPort: 50051
         env:
@@ -934,7 +934,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: us-central1-docker.pkg.dev/google-samples/microservice-argoCD/adservice:v0.10.3
+        image: us-central1-docker.pkg.dev/google-samples/microservice-argocd/adservice:v0.10.3
         ports:
         - containerPort: 9555
         env:

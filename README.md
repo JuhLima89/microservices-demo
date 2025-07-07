@@ -158,4 +158,4 @@ Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 ## 💡 Autor(a)
 
 **Juliana Lima**  
-🔗 [github.com/JuhLima89(https://github.com/JuhLima89)
+🔗 [github.com/JuhLima89](https://github.com/JuhLima89)
