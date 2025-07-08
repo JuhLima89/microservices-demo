@@ -116,6 +116,9 @@ Nesta etapa, será criada uma aplicação dentro do ArgoCD que irá gerenciar o 
 3. Clique em **SYNC** > **SYNCHRONIZE** para aplicar os recursos no cluster.
 4. O ArgoCD irá comparar o estado atual do cluster com os manifests e aplicar as alterações necessárias.
 
+![argocd app](images/argo_app.png)
+
+![argocd pods](images/pods_argo.png)
 ---
 
 
@@ -147,7 +150,7 @@ Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 
 - Para monitorar os pods:
   ```bash
-  kubectl get pods -A
+  kubectl get pods
   ```
 - Para visualizar logs:
   ```bash
