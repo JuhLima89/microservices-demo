@@ -54,6 +54,8 @@ kubectl create namespace argocd
 kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
 ```
 
+![argocd instalado](images/argo_instalado.png)
+
 ---
 
 ### 3. 🌐 Acessar o ArgoCD
@@ -73,6 +75,8 @@ Acesse: [https://localhost:8080](https://localhost:8080)
 kubectl -n argocd get secret argocd-initial-admin-secret   -o jsonpath="{.data.password}" | base64 -d && echo
 ```
 
+![argo login](images/argo_tela_login.png)
+
 ---
 
 ### 4. 📂 Criar a Aplicação no ArgoCD
@@ -89,6 +93,8 @@ Nesta etapa, será criada uma aplicação dentro do ArgoCD que irá gerenciar o 
    - **Type**: Git
    - **URL**: https://github.com/<seu-usuario>/<seu-repositorio>.git
    - Se o repositório for privado, adicione as credenciais de acesso (SSH ou HTTPS com token/personal access token).
+
+![argo repositorio](images/argo_repositorio.png)
 
 #### ✅ Passo 4.2: Criar uma Nova Aplicação no ArgoCD
 
@@ -123,6 +129,8 @@ kubectl port-forward svc/frontend 8081:80
 
 Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 
+![online boutique](images/online_boutique.png)
+
 ---
 
 ## ✅ Entregas Esperadas
@@ -132,7 +140,6 @@ Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 - [x] Aplicação criada no ArgoCD e sincronizada;
 - [x] Pods da aplicação rodando corretamente;
 - [x] Acesso funcional ao frontend via `kubectl port-forward`;
-- [ ] (Opcional) Customização nos manifests (ex: alterar réplicas dos microserviços).
 
 ---
 
