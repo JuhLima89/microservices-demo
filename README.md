@@ -40,6 +40,8 @@ gitops-microservices/
 
 > Utilize o arquivo `release/kubernetes-manifests.yaml` do repositório original e renomeie para `online-boutique.yaml`.
 
+[📄 online-boutique.yaml](k8s/online-boutique.yaml)
+
 ---
 
 ### 2. 📦 Instalação do ArgoCD no cluster local
