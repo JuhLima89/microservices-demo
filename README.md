@@ -136,6 +136,12 @@ Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 
 ---
 
+## Opcional:
+
+- Adicionei 2 réplicas a um deployment do projeto
+
+![replicas](images/replicas.png)
+
 ## ✅ Entregas Esperadas
 
 - [x] Repositório Git público com os manifests YAML organizados;
@@ -143,6 +149,8 @@ Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 - [x] Aplicação criada no ArgoCD e sincronizada;
 - [x] Pods da aplicação rodando corretamente;
 - [x] Acesso funcional ao frontend via `kubectl port-forward`;
+- [x] (Opcional) Customizar o manifest (ex: mudar número de réplicas de
+algum microserviço)
 
 ---
 
