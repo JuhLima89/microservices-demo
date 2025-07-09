@@ -142,6 +142,9 @@ Acesse a aplicação em: [http://localhost:8081](http://localhost:8081)
 
 ![replicas](images/replicas.png)
 
+
+![replicas pods](images/replicas_pods.png)
+
 ## ✅ Entregas Esperadas
 
 - [x] Repositório Git público com os manifests YAML organizados;
